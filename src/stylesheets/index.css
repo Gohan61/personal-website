@@ -1,0 +1,84 @@
+:root {
+  --background-color: rgb(0, 38, 77);
+}
+
+@font-face {
+  font-family: nunito-body;
+  src: url(../assets/Nunito/static/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: abel-header;
+  src: url(../assets/Abel/Abel-Regular.ttf);
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: nunito-body, Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: abel-header, Arial, Helvetica, sans-serif;
+}
+
+/* Header styles */
+
+header {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+.angledBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360vw;
+  height: 178vh;
+  background-color: var(--background-color);
+  transform: translateX(-20%) translateY(-97%) rotate(-5deg);
+  z-index: 0;
+}
+
+.headerContent {
+  display: flex;
+  padding: 20px;
+  z-index: 1;
+  height: 350px;
+}
+
+.profilePicture img {
+  width: 280px;
+  object-fit: contain;
+}
+
+.headerAbout {
+  padding: 50px;
+  height: 140px;
+  background-color: white;
+  margin-top: 15px;
+  box-shadow: 0 2px 2px 2px rgb(128, 128, 128, 0.2);
+}
+
+.headerIcons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.socialIcon {
+  width: 20px;
+}
+
+/* Main styles */
+
+/* Footer styles */
