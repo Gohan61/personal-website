@@ -21,6 +21,9 @@ const shoppingLink = document.querySelector(".shopping-link");
 const photoGit = document.querySelector(".photo-git");
 const photoLink = document.querySelector(".photo-link");
 
+const contactGit = document.querySelector(".contactIcons .gitIcon");
+const contactLinkedin = document.querySelector(".contactIcons .linkedInIcon");
+
 function addLinkListener(link, element) {
   element.addEventListener("click", () => (location.href = link));
 }
@@ -41,7 +44,13 @@ function addLinkListener(link, element) {
     [shoppingLink, "https://main--odin-react-shoppingcart.netlify.app/"],
     [photoGit, "https://github.com/Gohan61/phototaggingapp"],
     [photoLink, "https://production--phototag-frontend-odin.netlify.app/"],
+    [contactGit, "https://github.com/Gohan61"],
+    [contactLinkedin, "https://www.linkedin.com/in/gokhan-sancak/"],
   ];
 
   linksAndElements.forEach((item) => addLinkListener(item[1], item[0]));
 })();
+
+const encEmail = "Zy5zYW5jYWtAdHV0YW5vdGEuY29t";
+const email = document.querySelector(".email");
+email.setAttribute("href", "mailto:".concat(atob(encEmail)));
