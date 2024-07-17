@@ -31,7 +31,6 @@ h2 {
 /* Header styles */
 
 header {
-  height: 300px;
   display: flex;
   justify-content: center;
   z-index: 1;
@@ -84,5 +83,58 @@ header {
 }
 
 /* Main styles */
+
+main h2 {
+  margin-left: 73px;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+}
+
+.projectsContainer > [class^="project"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 250px;
+}
+
+.projectsContainer > [class^="project"]:hover {
+  box-shadow: 1px 1px 10px inset rgba(11, 4, 87, 0.1);
+}
+
+.projectScreenshot {
+  width: 250px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.projectDescription {
+  box-shadow: 1px 1px 2px 0 rgb(82, 72, 72, 0.2);
+  height: 200px;
+  padding: 10px;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectIcons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.projectIcons img:hover {
+  cursor: pointer;
+}
+
+.projectIcons img {
+  width: 20px;
+}
 
 /* Footer styles */
