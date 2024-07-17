@@ -79,6 +79,10 @@ header {
   width: 20px;
 }
 
+.socialIcon:hover {
+  cursor: pointer;
+}
+
 /* Main styles */
 
 /* Footer styles */
