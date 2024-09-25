@@ -46,7 +46,7 @@ function addLinkListener(link, element) {
     [nahebookGit, "https://github.com/Gohan61/nahebook"],
     [nahebookLink, "https://nahebook-odin-frontend.netlify.app/"],
     [messageGit, "https://github.com/Gohan61/messaging-app"],
-    [messageLink, "https://messaging-app-odin-frontend.netlify.app/"],
+    [messageLink, "https://github.com/Gohan61/messaging-app"],
     [dataGit, "https://github.com/Gohan61/computer-science-odin"],
     [dataLink, "https://github.com/Gohan61/computer-science-odin"],
     [battleshipGit, "https://github.com/Gohan61/testing-javascript"],
@@ -54,7 +54,7 @@ function addLinkListener(link, element) {
     [shoppingGit, "https://github.com/Gohan61/shopping-cart"],
     [shoppingLink, "https://main--odin-react-shoppingcart.netlify.app/"],
     [photoGit, "https://github.com/Gohan61/phototaggingapp"],
-    [photoLink, "https://production--phototag-frontend-odin.netlify.app/"],
+    [photoLink, "https://github.com/Gohan61/phototaggingapp"],
     [contactGit, "https://github.com/Gohan61"],
     [contactLinkedin, "https://www.linkedin.com/in/gokhan-sancak/"],
   ];
