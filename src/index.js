@@ -81,7 +81,7 @@ function addLinkListener(link, element) {
 
   linksAndElements.forEach((item) => addLinkListener(item[1], item[0]));
 
-  const encEmail = "Zy5zYW5jYWtAdHV0YW5vdGEuY29t";
+  const encEmail = "Zy5zYW5jYWtAcHJvdG9uLm1l";
   const email = document.querySelector(".email");
   email.setAttribute("href", "mailto:".concat(atob(encEmail)));
 
