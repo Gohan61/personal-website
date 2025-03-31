@@ -5,30 +5,30 @@ import LinkIcon from "./assets/share-outline.svg";
 import ProfilePicture from "./assets/Profile-picture-Gokhan.jpg";
 import NahebookImage from "./assets/Nahebook-desktop-feed (Phone).png";
 import MessageImage from "./assets/Messaging-app-display.png";
-import BattleshipImage from "./assets/battleship-display.png";
-import ShoppingImage from "./assets/fake-store-example.png";
+import TCRImage from "./assets/tcr_home.png";
+import SelenartImage from "./assets/selenart-home.png";
 import BstImage from "./assets/Binary_search_tree.svg";
-import FileUploaderImage from "./assets/file-uploader.png";
+import FileUploaderImage from "./assets/file_uploader.png";
 import EmailIcon from "./assets/email-outline.svg";
 
 (function addListeners() {
   const gitIcon = document.querySelector(".gitIcon");
   const linkedInIcon = document.querySelector(".linkedInIcon");
 
-  const nahebookGit = document.querySelector(".nahebook-git");
-  const nahebookLink = document.querySelector(".nahebook-link");
+  const nahebookGit = document.querySelector(".first-git");
+  const nahebookLink = document.querySelector(".first-link");
 
-  const messageGit = document.querySelector(".message-git");
+  const messageGit = document.querySelector(".second-git");
 
-  const dataGit = document.querySelector(".data-git");
+  const dataGit = document.querySelector(".third-git");
 
-  const battleshipGit = document.querySelector(".battleship-git");
-  const battleshipLink = document.querySelector(".battleship-link");
+  const tcrGit = document.querySelector(".fourth-git");
+  const tcrLink = document.querySelector(".fourth-link");
 
-  const shoppingGit = document.querySelector(".shopping-git");
-  const shoppingLink = document.querySelector(".shopping-link");
+  const selenartGit = document.querySelector(".fifth-git");
+  const selenartLink = document.querySelector(".fifth-link");
 
-  const fileUploadGit = document.querySelector(".photo-git");
+  const fileUploadGit = document.querySelector(".sixth-git");
 
   const contactGit = document.querySelector(".contactIcons .gitIcon");
   const contactLinkedin = document.querySelector(".contactIcons .linkedInIcon");
@@ -37,8 +37,8 @@ import EmailIcon from "./assets/email-outline.svg";
   nahebookGit.src = GitIcon;
   messageGit.src = GitIcon;
   dataGit.src = GitIcon;
-  battleshipGit.src = GitIcon;
-  shoppingGit.src = GitIcon;
+  tcrGit.src = GitIcon;
+  selenartGit.src = GitIcon;
   fileUploadGit.src = GitIcon;
   contactGit.src = GitIcon;
 
@@ -46,8 +46,8 @@ import EmailIcon from "./assets/email-outline.svg";
   contactLinkedin.src = LinkedinIcon;
 
   nahebookLink.src = LinkIcon;
-  battleshipLink.src = LinkIcon;
-  shoppingLink.src = LinkIcon;
+  tcrLink.src = LinkIcon;
+  selenartLink.src = LinkIcon;
 
   const encEmail = "Zy5zYW5jYWtAcHJvdG9uLm1l";
   const email = document.querySelector(".email");
@@ -70,11 +70,11 @@ import EmailIcon from "./assets/email-outline.svg";
   const bstImage = document.querySelector(".project3 img");
   bstImage.src = BstImage;
 
-  const battleshipImage = document.querySelector(".project4 img");
-  battleshipImage.src = BattleshipImage;
+  const tcrImage = document.querySelector(".project4 img");
+  tcrImage.src = TCRImage;
 
-  const shoppingImage = document.querySelector(".project5 img");
-  shoppingImage.src = ShoppingImage;
+  const selenartImage = document.querySelector(".project5 img");
+  selenartImage.src = SelenartImage;
 
   const fileUploadImage = document.querySelector(".project6 img");
   fileUploadImage.src = FileUploaderImage;
