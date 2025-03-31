@@ -2,13 +2,6 @@ import "./stylesheets/index.css";
 import GitIcon from "./assets/github-original.svg";
 import LinkedinIcon from "./assets/linkedin-plain.svg";
 import LinkIcon from "./assets/share-outline.svg";
-import ProfilePicture from "./assets/Profile-picture-Gokhan.jpg";
-import NahebookImage from "./assets/Nahebook-desktop-feed (Phone).png";
-import MessageImage from "./assets/Messaging-app-display.png";
-import TCRImage from "./assets/tcr_home.png";
-import SelenartImage from "./assets/selenart-home.png";
-import BstImage from "./assets/Binary_search_tree.svg";
-import FileUploaderImage from "./assets/file_uploader.png";
 import EmailIcon from "./assets/email-outline.svg";
 
 (function addListeners() {
@@ -55,27 +48,4 @@ import EmailIcon from "./assets/email-outline.svg";
 
   const emailIcon = document.querySelector(".emailContact img ");
   emailIcon.src = EmailIcon;
-})();
-
-(function setImages() {
-  const profilePicture = document.querySelector(".profilePicture img");
-  profilePicture.src = ProfilePicture;
-
-  const nahebookImage = document.querySelector(".project1 img");
-  nahebookImage.src = NahebookImage;
-
-  const messageImage = document.querySelector(".project2 img");
-  messageImage.src = MessageImage;
-
-  const bstImage = document.querySelector(".project3 img");
-  bstImage.src = BstImage;
-
-  const tcrImage = document.querySelector(".project4 img");
-  tcrImage.src = TCRImage;
-
-  const selenartImage = document.querySelector(".project5 img");
-  selenartImage.src = SelenartImage;
-
-  const fileUploadImage = document.querySelector(".project6 img");
-  fileUploadImage.src = FileUploaderImage;
 })();
