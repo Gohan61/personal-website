@@ -11,7 +11,8 @@ import EmailIcon from "./assets/email-outline.svg";
   const nahebookGit = document.querySelector(".first-git");
   const nahebookLink = document.querySelector(".first-link");
 
-  const messageGit = document.querySelector(".second-git");
+  const kagithanGit = document.querySelector(".second-git");
+  const kagithanLink = document.querySelector(".second-link");
 
   const dataGit = document.querySelector(".third-git");
 
@@ -21,18 +22,21 @@ import EmailIcon from "./assets/email-outline.svg";
   const selenartGit = document.querySelector(".fifth-git");
   const selenartLink = document.querySelector(".fifth-link");
 
-  const fileUploadGit = document.querySelector(".sixth-git");
+  const shopPageGit = document.querySelector(".sixth-git");
+  const shopPageLink = document.querySelector(".sixth-link");
 
   const contactGit = document.querySelector(".contactIcons .gitIcon");
   const contactLinkedin = document.querySelector(".contactIcons .linkedInIcon");
 
   gitIcon.src = GitIcon;
   nahebookGit.src = GitIcon;
-  messageGit.src = GitIcon;
+  kagithanGit.src = GitIcon;
+  kagithanLink.src = LinkIcon;
   dataGit.src = GitIcon;
   tcrGit.src = GitIcon;
   selenartGit.src = GitIcon;
-  fileUploadGit.src = GitIcon;
+  shopPageGit.src = GitIcon;
+  shopPageLink.src = LinkIcon;
   contactGit.src = GitIcon;
 
   linkedInIcon.src = LinkedinIcon;
